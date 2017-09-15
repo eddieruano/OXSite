@@ -1,0 +1,221 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'calissa_wordsregular';
+    src: url('cursive-webfont.eot');
+    src: url('cursive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('cursive-webfont.woff2') format('woff2');
+
+    font-weight: normal;
+    font-style: normal;
+	}
+@font-face {
+    font-family: 'HEADTH';
+    src: url('headth-webfont.eot');
+    src: url('headth-webfont.eot?#iefix') format('embedded-opentype'),
+         url('headth-webfont.woff2') format('woff2'),
+         url('headth-webfont.woff') format('woff'),
+         url('headth-webfont.ttf') format('truetype'),
+         url('headth-webfont.svg#headline_twohplhs') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*@font-face {
+    font-family: HEADTH;
+    src:url(HEADTH.TTF);
+}*/
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('coolvetica-webfont.eot');
+    src: url('coolvetica-webfont.eot?#iefix') format('embedded-opentype'),
+         url('coolvetica-webfont.woff2') format('woff2'),
+         url('coolvetica-webfont.woff') format('woff'),
+         url('coolvetica-webfont.ttf') format('truetype'),
+         url('coolvetica-webfont.svg#coolveticaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Carbon';
+    src: url('carbon-webfont.eot');
+    src: url('carbon-webfont.eot?#iefix') format('embedded-opentype'),
+         url('carbon-webfont.woff2') format('woff2'),
+         url('carbon-webfont.woff') format('woff'),
+         url('carbon-webfont.ttf') format('truetype'),
+         url('carbon-webfont.svg#carbonblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Dance';
+    src: url('dance-webfont.eot');
+    src: url('dance-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dance-webfont.woff2') format('woff2'),
+         url('dance-webfont.woff') format('woff'),
+         url('dance-webfont.ttf') format('truetype'),
+         url('dance-webfont.svg#dancing_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*
+@font-face {
+    font-family: Dance;
+    src:url(dance.ttf);
+}*/
+@font-face {
+    font-family: Age;
+    src:url(Age.otf);
+}
+/*
+@font-face {
+    font-family: Coolvetica;
+    src:url(coolvetica.ttf);
+}*/
+@font-face {
+    font-family: Carbon;
+    src:url(carbon.ttf);
+}
+@font-face {
+    font-family: Mabella;
+    src:url(Mabella.TTF);
+}
+#leftSBDC{
+	width:100%;
+	background: rgba(0,0,0,0.4);
+	position:absolute;
+	left:0;
+	top:0;
+	height:130px;
+	z-index:10;}
+	
+#slideshow{
+	background: transparent;
+	width:100%;
+	position:absolute;
+	top:0;
+	margin-left:0px;
+	height:100%;
+	z-index: 1;
+	overflow:hidden;
+}
+#slideshow > div{
+	position:absolute;
+}
+
+#slideshow div img{
+	width:100%;
+	height:100%;
+	
+	
+}
+
+#thanks{
+	font-family: "HEADTH";
+	letter-spacing: 5px;
+	font-size:30px;
+	margin-top: 15px;
+	margin-left: 30px;
+	color: #FFF;
+	text-transform: uppercase !important;
+	}
+#logo{
+	position:absolute;
+	margin-top:10px;
+	margin-right:10px;
+	right:0;
+	background-image:url(http://www.cpthetachi.com/Images/frontpage/sbdc/logo.png);
+	background-size:auto;
+	background-repeat:no-repeat;
+	width:240px;
+	height:100px;
+	z-index:99999999;}
+	
+#chio{
+	color: #FFF;
+	position:absolute;
+	margin-top: 550px;
+	background: rgba(0,0,0,0.5);
+	font-family: "Dance";
+	font-size:40px;
+	letter-spacing:1px;	
+	width:100%;
+	height:100px;
+	padding-left: 60px;
+	
+	padding-top: 20px;
+}
+
+#sbdc{
+	text-align:left;
+	font-family: "Carbon";
+	width: 100%;
+	height: 90px;
+	position:absolute;
+	z-index:10;
+	top:0;
+	margin-top:35px;
+	left:0;
+	color:#AE1A26;
+	font-size:68px;
+	letter-spacing:3px;
+	background: transparent;
+	padding-left: 28px;
+	
+	
+}
+
+#watch{
+	text-align:right;
+	font-family: "HEADTH";
+	font-size:25px;
+	width: 100%;
+	height: 100px;
+	position:absolute;
+	z-index:20;
+	right:0;
+	margin-top:550px;
+	padding-right: 50px;
+	padding-top:20px;
+	overflow:hidden;
+	letter-spacing: 3px;
+	background:transparent;
+	color:#FFF;
+	text-transform: uppercase !important;
+	
+}
+
+
+#watch a:hover{
+	color:#FFF;
+}
+
+a {
+	color:#F00;
+}
+h5
+{
+	text-align:center;
+	font-family: "Coolvetica";
+	font-size:20px;
+	width: 200px;
+	height: 100px;
+	position:absolute;
+	z-index:20;
+	right:0;
+	margin-top:200px;
+	background-color:transparent;
+	color:#FFF;
+	font-weight: normal;
+}

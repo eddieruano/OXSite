@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #AE1A26;;
+	
+}
+
+.containment {
+
+	/*border: medium solid #F00;*/
+	height: 6500px;
+	width: 1350px;
+	/*text-decoration: underline;*/
+	background-color:#AE1A26;
+	/*padding-left: 100px;*/
+	
+	margin: 0 auto;
+	/*box-shadow: 4px 4px 4px #888888;*/
+	position: relative;
+	
+}
+.body {
+	background-color: #FFF;
+	height: 1170px;
+	width: 1000px;
+	margin: 0 auto;
+	/*clear: both;*/
+	/*border:solid #FFF;
+	border-radius: 5px;*/
+	box-shadow: 2px 2px 2px #888888;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom:1px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	
+}
+
+
+
+
+.Header {
+	width: auto;
+	overflow:hidden;
+	/*border:solid #FFF;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #888888;*/
+	
+}
+
+.navBar {
+	width: auto;
+	height: 100px;
+	padding-top: 10px;
+	background-color: #AE1A26 !important;
+	padding-left: 40px;
+	overflow:!important visible;
+	z-index:!important 999;
+}
+
+
+
+.HeaderBackdrop {
+	background-image:url(Images/TryBan2.jpg);
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 200px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat:no-repeat;
+}
+
+.HeaderContent{
+	background-color:transparent;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	height:auto;
+    
+}
+
+.topLogo {
+	float:right;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+.topLogoLeft {
+	float: left;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#NewsHeader {
+	font-size: 36px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	/*text-decoration:underline;*/
+	text-align: center;
+	vertical-align: text-top;
+	margin: 0 auto;	
+}
+
+
+.footer {
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+}
+
+.quote {
+	color: #fff;
+	font-family: voltaire;
+	font-style: italic;	
+	font-size:16px;
+	height: 60px;
+	width: 1300px;
+	margin: 0 auto;
+	text-align:center;
+	background-color:#000;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	padding-left:10px;
+	padding-right:10px;
+
+}
+
+.quote img{
+	padding-top: 5px;
+}
+
+
+
+.actualfooter{
+	height:auto;
+	width: auto;
+	/*border:#FFF solid;*/
+}
+
+
+#left
+{
+	color:#FFF;
+	float: left;
+	padding-left:10px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	padding-top: 15px;
+
+	/*border:#FFF solid;*/
+}
+
+#left a{
+	color: #FFF;
+}
+
+
+#middle
+{
+	/*border: #FFF solid;*/
+	height: auto;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+#middle img{
+	height: 100px;
+	width: 150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#twoMiddle
+{
+	border: #FFF solid;
+	height: auto;
+	float: right;	
+}
+
+#right
+{
+	color:#FFF;
+	float: right;
+	/*border:#FFF solid;*/
+}
+
+#right a{
+	color: #FFF;
+}
+
+#follow{
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	font-size:20px;
+	text-align:center;
+	
+}
+
+#EddieRuano{
+	color:#FFF;
+	text-align:center;
+	font-style:italic;
+}
+
+#hidden {
+	color: #F00;
+	font-size:9px;
+	padding-bottom:1px;
+	padding-left: 10px;
+	
+}
+
+#hidden a{color: #AE1A26;}
+
+#hidden a:hover{color: #FFF;}

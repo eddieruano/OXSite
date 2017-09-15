@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+#title {
+	font-size: 36px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	/*text-decoration:underline;*/
+	text-align: center;
+	vertical-align: text-top;
+	margin: 0 auto;
+}
+
+.bodyDIFF {
+	background-color: #FFF;
+	height: 900px;
+	width: 1000px;
+	margin: 0 auto;
+	/*clear: both;*/
+	border:solid #FFF;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #888888;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom:1px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;	
+}
+.containmentDIFF {
+	height: 1250px;
+	width: 1350px;
+	/*text-decoration: underline;*/
+	background-color:#AE1A26;
+	/*padding-left: 100px;*/
+	
+	margin: 0 auto;
+	box-shadow: 4px 4px 4px #888888;
+
+}
+.left {
+	width: 500px;
+	float: left;
+	height:auto;
+	border: #000, solid;
+}
+
+.right {
+	width: 500px;
+	float:right;
+	border:#000, solid;
+	height:auto;
+}
+
+#lefttop {
+	font-size: 16px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:justify;
+}
+
+#righttop {
+	padding-left: 10px;
+}
+
+#righttop img {
+	width: 450px;
+	height: 300px;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px #888888 ;
+	float: right;
+	
+}
+#rightlow {
+	width: 500px;
+	height:auto;
+	float:right;
+}
+#rightlow img {
+	width: 450px;
+	height: 300px;
+	border-radius: 5px;
+	box-shadow: 4px 4px 4px #888888;
+	float: right;
+}
+#weekend {
+	font-size: 28px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:center;
+	
+}
+#weekendtext{
+	font-size: 16px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:justify;
+}
+
+.list {
+	list-style-image:url(Images/bullet1.png);
+}
+.links {
+	cursor: pointer;
+	font-size: 20px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:left;
+}
+.linklist1{list-style:url(http://www.cpthetachi.com/Images/triangleNormal.png);}
+.linklist2{list-style:url(http://www.cpthetachi.com/Images/triangleNormal.png);}
+.linklist3{list-style:url(http://www.cpthetachi.com/Images/triangleNormal.png);}
+.dropped{list-style:url(http://www.cpthetachi.com/Images/triangleDown.png);}
+
+
+#dues {
+	display:none;
+    font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+}
+
+#bros {
+	display:none;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+}
+#phil {
+	display:none;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+}

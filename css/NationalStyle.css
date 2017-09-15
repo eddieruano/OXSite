@@ -1,0 +1,95 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+
+
+
+#title {
+	font-size: 36px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	/*text-decoration:underline;*/
+	text-align: center;
+	vertical-align: text-top;
+	margin: 0 auto;
+	
+}
+
+#chase{
+	margin: 0 auto;
+	width: 300px;
+	float: left;
+	height: 350px;
+}
+
+#chase img {
+	width: 247px;
+	height: 320px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+
+.history {
+    font-size:16px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:left;
+}
+
+.subsection {
+	font-size:22px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:center;
+}
+
+
+#story {
+	float: left;
+	width: 400px;
+	height: 350px;
+	text-align:justify;
+}
+
+#freeman{
+	width: 300px;
+	height: 350px;
+	float: left;
+	
+}
+
+#freeman img {
+	width: 247px;
+	height: 320px;
+	float:right;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px #888888;
+}
+
+#story2 {
+    width: 1000px;
+	height: auto;
+	clear:both !important;
+	padding-top: 19px;
+	text-align:justify;
+	
+}
+#captionChase {
+	margin: 0 auto;
+	float:left;
+	padding-top: 10px;
+	font-size:18px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+}
+
+#captionFreeman {
+	margin: 0 auto;
+	float:right;
+	padding-top: 10px;
+	font-size:18px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+}

@@ -1,0 +1,450 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#rush{
+	width:650px;
+	height:400px; 
+	position:relative; 
+	top:0;
+	margin-left:50px;
+	border-radius:5px;
+	z-index: 10;
+	
+	
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#AE1A26;
+	font-family: "proxima-nova-soft",sans-serif;
+	
+}
+
+.containment {
+
+	/*border: medium solid #F00;*/
+	height: 2280px;
+	width: 1350px;
+	/*text-decoration: underline;*/
+	background-color:#AE1A26;
+	margin: 0 auto;
+	overflow:hidden;
+	/*box-shadow: 4px 4px 4px #888888;*/
+}
+.body {
+	background-color: #FFF;
+	height: 1200px;
+	width: 1200px;
+	margin: 0 auto;
+	/*border-radius: 5px;
+	box-shadow: 2px 2px 2px #888888;
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
+	margin-bottom:1px;
+	/*border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;*/
+	position:relative;
+}
+
+#body{
+	background-color: transparent !important;
+	/*height: 1200px;
+	width: 1200px;*/
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
+	position:relative;
+	width:100%;
+	height:700px;
+	overflow:hidden;
+}
+
+.leftBody{
+	background-color:#FFF;
+	/*font-family:"Myriad Pro", "Trebuchet MS", sans-serif;*/
+	text-shadow: #888888;
+	width:400px;
+	height:1100px;
+	/*border:#000 solid;*/
+	float:left;
+	position:relative;	
+}
+
+.leftBody img{
+	width:400px;
+	height:auto;
+}
+
+.rightBody{
+	background-color: transparent;
+	width: 750px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	height: 1100px;
+	/*border: #000 solid;*/
+	border-radius: 5px;
+	/*box-shadow: 2px 2px 2px #888888;*/
+	float: right;
+	/*position:absolute;
+	right:0;
+	margin-right: 70px;*/
+}
+.rightBodyTop{
+	width:auto;
+	height:auto;
+}
+
+
+
+.container {
+	
+	  width: 750px;
+	  height: 240px;
+	  background-color:#FFF;
+	  border:#009, medium;
+	  border-radius: 5px;
+	  box-shadow: 2px 2px 2px #888888;
+	  overflow:hidden;
+  /*float:right !important;*/
+    
+    }
+.rightBodyBottom{
+	width:auto;
+	/*border:#AE1A26 dashed;*/
+	height:auto;
+}
+#PresidentMessageHead{
+	font-size:24px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:center;
+
+}
+
+#PresidentMessage{
+	font-size: 16px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+.Header {
+	width: auto;
+	overflow:hidden;
+	/*border:solid #FFF;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #888888;*/
+	
+}
+
+.navBar {
+	width: auto;
+	height: 100px;
+	padding-top: 10px;
+	background-color: #AE1A26 !important;
+	padding-left: 60px;
+	overflow:!important visible;
+	z-index:!important 999;
+}
+
+
+
+.HeaderBackdrop {
+	background-image:url(TryBan2.jpg);
+	background-repeat:no-repeat;
+	background-position:center; 
+	height: 200px;
+	width: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background-repeat:no-repeat;
+}
+
+.HeaderContent{
+	background-color:transparent;
+	font-family:Verdana, Geneva, sans-serif;
+	color:#FFF;
+	height:auto;
+    
+}
+
+.topLogo {
+	float:right;
+	padding-right: 30px;
+	padding-top: 10px;
+}
+.topLogoLeft {
+	float: left;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#NewsHeader {
+	font-size: 36px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	/*text-decoration:underline;*/
+	text-align: center;
+	vertical-align: text-top;
+	margin: 0 auto;	
+}
+
+#world{
+	font-size: 24px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	/*text-decoration:underline;*/
+	text-align: center;
+	vertical-align: text-top;
+	margin: 0 auto;
+	
+}
+/*
+#WelcomeMessage {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding: 0px;
+	height:30px;
+	width:auto;
+	border:#00C, solid;
+	top: auto;
+	text-decoration:underline;
+	
+}*/
+
+.special {
+	width:auto;
+	height:auto;
+}
+
+#pClass {
+	width: 700px;
+	height: 400px;	
+	overflow: hidden;
+	margin: 0 auto;
+
+	
+	
+}
+
+
+#PledgeClass img{
+
+	width: 700px;
+	height: 400px;
+	position:relative;
+	margin-left: 30px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px #888888;
+	
+}
+
+.footer {
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+
+	
+	
+	
+}
+
+.quote {
+	color: #fff;
+	font-family: voltaire;
+	font-style: italic;	
+	font-size:16px;
+	height: 60px;
+	width: 1300px;
+	margin: 0 auto;
+	text-align:center;
+	background-color:#000;
+	border-radius: 5px;
+	padding-left:10px;
+	padding-right:10px;
+
+}
+
+.quote img{
+	padding-top: 5px;
+}
+
+
+
+.actualfooter{
+	height:auto;
+	width: auto;
+	/*border:#FFF solid;*/
+}
+
+
+#left
+{
+	color:#FFF;
+	float: left;
+	padding-left:10px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	padding-top: 15px;
+
+	/*border:#FFF solid;*/
+}
+
+#left a{
+	color: #FFF;
+}
+
+
+#middle
+{
+	/*border: #FFF solid;*/
+	height: auto;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;	
+}
+
+#middle img{
+	height: 100px;
+	width: 150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+#twoMiddle
+{
+	border: #FFF solid;
+	height: auto;
+	float: right;	
+}
+
+#right
+{
+	color:#FFF;
+	float: right;
+	/*border:#FFF solid;*/
+}
+
+#right a{
+	color: #FFF;
+}
+
+#follow{
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	font-size:20px;
+	text-align:center;
+	
+}
+
+#EddieRuano{
+	color:#FFF;
+	text-align:center;
+	font-style:italic;
+}
+
+
+
+#footer {
+	width: 1250px;
+	background-color:transparent;
+	height:100px;
+	position:relative;
+	margin: 0 auto;
+}
+
+#rightfoot {
+	position:absolute;
+	right: 0;
+	top: 0;
+	width: 500px;
+	height: 100px;
+	padding: 5px;
+	color:#FFF;
+	word-spacing:6px;
+	font-size:12px;
+	text-align:right;
+}
+
+#social {
+	position:absolute;
+	right: 0;
+	bottom: 0;
+	width: 200px;
+	height: 70px;
+	background-color:transparent;
+}
+
+#social img{
+	padding: 15px;
+	cursor:pointer;
+}
+
+#theta{
+	width: 400px;
+	height: 136px;
+	margin: 0 auto;
+	background-color:transparent;
+}
+
+
+#theta img{
+	
+	width: 400px;
+	height: 136px;
+	
+	
+}
+
+#rightfoot a:visited{text-decoration:none;color:#CCC;background-color:transparent}
+
+#rightfoot a:link,.footer  {text-decoration:none;color:#FFF;background-color:transparent}
+#rightfoot a:hover,.footer a:active {text-decoration:underline;color:#404040;background-color:transparent}
+
+#midfoot {
+	position:absolute;
+	bottom: 0;
+	width: 300px;
+	height: 40px;
+	background-color:
+	#000;
+}
+#enfenete {
+	position:absolute;
+	margin-left: 50px;
+	top: 0;
+	width: 150px;
+	height: 50px;
+	padding: 15px;
+	color:#FFF;
+	word-spacing:6px;
+	font-size:10px;
+	text-align:left;
+
+}
+
+#enfenete img {
+	width: 100px;
+	height: 20px;
+	float:right;
+	border-radius: 5px;
+}
+#Eddie{
+	-webkit-transition: 0.5 ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+#Eddie:hover {
+
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}

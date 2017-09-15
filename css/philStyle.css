@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+.containment {
+
+	/*border: medium solid #F00;*/
+	height: 1080px;
+	width: 1350px;
+	/*text-decoration: underline;*/
+	background-color:#AE1A26;
+	margin: 0 auto;
+	/*box-shadow: 4px 4px 4px #888888;*/
+	
+	
+}
+#title {
+	font-size: 36px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	/*text-decoration:underline;*/
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5px;
+	
+}
+
+#content{
+	position: relative;
+	/*top:0;*/
+	/*left: 0;*/
+	background-color:#FFF;
+	padding-top: 10px; /*fixes philan. title too close to top of white/red barrier*/
+	width:1000px;
+	margin-left:175px;
+	/*margin-top: 350px;*/
+	height: 650px;
+	border-radius:5px;
+	/***********/
+	
+}
+
+.content{
+	display: inline;
+	color: #AE1A26;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	font-size:16px;
+}
+
+#leftContent{
+	position:absolute;
+	width:500px;
+	background-color:transparent;
+	height: 550px;
+	left:0;
+	color: #AE1A26;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	padding-left: 5px;
+	padding-right: 5px;
+	overflow:hidden;
+	
+}
+
+#rightContent{
+	position:absolute;
+	width:500px;
+	background-color:transparent;
+	height: 550px;
+	right:0;
+	color: #AE1A26;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	padding-left: 10px;
+	padding-right: 5px;
+	
+}
+
+#rightContent a:link, a:visited {
+	color: #AE1A26;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	text-decoration:none;
+
+	
+}
+
+#rightContent a:hover{
+	color: #000;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	text-decoration:none;
+
+	
+}
+
+	
+#BBBS{
+	
+	font-size: 20px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	/*text-decoration:underline;*/
+	text-align: left;
+	margin: 0 auto;
+	margin-left: 10px;
+	
+	
+	
+}
+	
+	
+#SBDC{
+	font-size: 20px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	/*text-decoration:underline;*/
+	text-align: right;
+	margin: 0 auto;
+	margin-right: 10px;
+	
+	
+}
+
+.ui-widget-header {
+  /* border: 1px solid #4297d7; */
+  /* background: #5c9ccc url(images/ui-bg_gloss-wave_55_5c9ccc_500x100.png) 50% 50% repeat-x; */
+  color: #ffffff;
+  font-weight: bold;
+  background-image:none !important;
+  background-color: rgb(169, 35, 35) !important;
+}

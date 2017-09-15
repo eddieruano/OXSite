@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+.containment {
+
+	/*border: medium solid #F00;*/
+	height: 2050px;
+	width: 1350px;
+	/*text-decoration: underline;*/
+	background-color:#AE1A26;
+	/*padding-left: 100px;*/
+	
+	margin: 0 auto;
+	/*box-shadow: 4px 4px 4px #888888;*/
+	position: relative;
+}
+
+h1{
+	font-size: 16px;
+	font-weight:normal;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	margin:0;
+	color:#FFF;
+	display:inline;
+	font-style:italic;
+	
+	
+}
+#mainDiv{
+	height: 1650px;
+	width: 1000px;
+	position:absolute;
+	left: 0;
+	margin-left: 175px;
+	background-color:transparent;
+	
+}
+
+#title{
+	height: 100px;
+	width: 1000px;
+	font-size:36px;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	color:#FFF;
+	text-align:center;
+	background-color:transparent;
+	
+	
+	
+}
+
+#leftPics{
+	position: absolute;
+	left:0;
+	width: 300px;
+	height: 1650px;
+	background-color:transparent;
+	
+	
+}
+
+#leftPics img{
+	width:300px;
+	height: 200px;
+	border-radius: 5px;
+	
+}
+
+#rightText{
+	width: 700px;
+	height: 1650px;
+	background-color:transparent;
+	position:absolute;
+	right:0;
+	
+	
+}
+
+.names{
+	height:200px;
+	width:700px;
+	background-color:transparent;
+	margin:0;
+	padding-left: 10px;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	font-size:18px;
+	color:#FFF;
+}
+.names p{
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	font-size:14px;
+	color:#FFF;
+}

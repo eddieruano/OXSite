@@ -1,0 +1,45 @@
+/*CSS DOCUMENT*/
+
+
+#leftslide{
+	float:left;
+	width:375px;
+	height:240px;
+	border:#ABA, solid;
+	z-index:auto;
+	color:FFF;
+	overflow:hidden;
+	position:relative;
+}
+
+#leftslide img{
+	width: 100%;
+	height: 240px;
+	
+	
+}
+
+#leftslide > div{
+	position:absolute;
+	width:375px;
+}
+
+
+#rightslide{
+	float:right;
+	width:375px;
+	height:240px;
+	position: relative; 
+	
+}
+
+#rightslide > div{
+	position:absolute;
+	width:375px;
+}
+
+#rightslide img{
+	width: 100%;
+	height: 240px;
+	
+}

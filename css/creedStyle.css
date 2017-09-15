@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+	margin:0;
+	padding:0;
+}
+#mainSign{
+	width: 500px;
+	height: 520px;
+	margin: 0 auto;
+	/*left: 0;
+	position:absolute*/
+	background-color: #FFF;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	/*font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	padding: 5px;*/
+	
+	font-size:16px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:left;
+	padding:10px;
+	font-style:italic;
+	
+}
+
+#creedHead{
+	font-size:24px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:center;
+	margin:0;
+	padding:0;
+	font-style:normal;
+}
+#frank{
+	font-size:16px;
+	font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	text-align:right;
+	padding:10px;
+	margin:0;
+	padding:0;
+	font-style:normal;
+	}
+#mottoMaxim{
+	text-align:center;
+}

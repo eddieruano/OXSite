@@ -1,0 +1,51 @@
+@charset "utf-8";
+@charset "utf-8";
+/* CSS Document */
+
+.containment {
+
+	/*border: medium solid #F00;*/
+	height: 1080px;
+	width: 1350px;
+	/*text-decoration: underline;*/
+	background-color:#AE1A26;
+	margin: 0 auto;
+	/*box-shadow: 4px 4px 4px #888888;*/
+	
+	
+}
+#title {
+	font-size: 36px;
+	font-family: "Myriad Pro", "Trebuchet MS", sans-serif;
+	color: #AE1A26;
+	/*text-decoration:underline;*/
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5px;
+	
+}
+
+#content{
+	position: relative;
+	/*top:0;*/
+	/*left: 0;*/
+	background-color:#FFF;
+	padding-top: 10px; /*fixes philan. title too close to top of white/red barrier*/
+	width:1000px;
+	margin-left:175px;
+	/*margin-top: 350px;*/
+	height: 650px;
+	border-radius:5px;
+	/***********/
+	
+}
+
+.content{
+	display: inline;
+	color: #AE1A26;
+	font-family: 'OpenSansRegular', Helvetica, Arial, sans-serif;
+	font-size:16px;
+	
+}
+
+

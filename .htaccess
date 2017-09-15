@@ -1,0 +1,14 @@
+# 1 ----Custom 404----
+ErrorDocument 404 /holdupholdupholdup.php
+
+# 2 ----Privacy-------
+IndexIgnore *
+
+# 3 ----Remove Ext----
+Options +MultiViews
+
+# 4 ----Fix CSS Error--
+AddType text/css .css
+
+# 5 ----Fix JS Error--
+AddType text/javascript .js

@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+.floatfix{
+	position:fixed;
+	z-index:30;
+	right:0;
+	left:0;
+	box-sizing:border-box;
+	background-color:transparent;
+	margin-right:15px;
+	margin-top:10px;
+	margin-left:15px;
+	color:#FFF;
+	}
+
+
+
+.header{
+	/*-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+	border-top:#FFF solid 1px;
+	border-bottom:#FFF solid 1px;
+	height:100px;/**CHANGE THIS FOR NAVBAR**/
+    z-index: 20;
+	/*border:solid #F0F;*/
+	/*margin-left:-15px;*//**fix, find out why**/
+    /*background-color: rgba(52,52,70,0.85);*/
+	background-color: rgba(174,26,38,0.65);
+	/*background-color: rgba(61,86,110,0.85);*/
+    /*padding: 10px 0;*/
+}
+
+.headercontent{
+	/*width:100%;
+	height:100px;/**NO CONFUSE WITH NAVBAR ADJUST BUT WILL NEED CHANGE**/
+	/*border:#FFF solid;*/
+	box-sizing:border-box;
+	padding:0;
+	background-color: rgba(61,86,110,0.45);
+	/*display:none;*//*Scrapped because went with fade on scroll*/
+	
+	
+	}
+.header-row{
+	margin-left:0px;
+	margin-right:0px;
+	box-sizing:border-box;
+}
+.inner-header{
+	height:100%;}
+.header-column{
+	height:100%;
+}
+.crest{
+	height:100%;}
+.crest img{
+	width:100%;
+	height:100%;
+	/*border:#FFF solid;*/
+	}
+
+
+
+.menu-button{
+	/*border:solid #F00;*/
+	/*border-top:#FFF solid 1px;*/
+	border-bottom:#FFF solid 1px;
+	box-sizing:border-box;
+	text-align:center;
+	font-size:2.0rem;
+	letter-spacing: 2px;
+	font-weight:300;
+	text-rendering: optimizelegibility;
+	line-height:32px;
+	font-family:"Oswald";	}
+	
+.menu-button p{
+	margin:0;
+	padding:0;
+}
+
+.menu-button a{
+	color:#FFF;
+}
+.menu-logo{
+	box-sizing:border-box;
+	padding:10px;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+	/*border:#F00 solid;*/
+	
+}
+.menu-logo img{
+	border-bottom:solid #FFF;
+	display:block;
+    margin:auto;
+	border-top:solid #FFF;
+	border-width:5px;
+	height:100%;
+	/*position:absolute;
+	z-index:25;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+
+.menu{
+	height:100%;
+	font-size:2.3rem;
+	padding:0;
+	position:relative;
+}
+.menu p{
+	padding:0;
+	position:absolute;
+	margin:0 auto;
+	z-index:25;               /* 2 */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu p:hover{
+	cursor:pointer;	
+}
+
+/*#close{display:none;}*/
+#open{display:none;

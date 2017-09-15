@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+#EddieRuano{
+	color:#FFF;
+	text-align:center;
+	font-style:italic;
+}
+
+
+
+#footer {
+	width: 1250px;
+	background-color:transparent;
+	height:100px;
+	position:relative;
+	margin: 0 auto;
+}
+
+#rightfoot {
+	position:absolute;
+	right: 0;
+	top: 0;
+	width: 500px;
+	height: 100px;
+	padding: 5px;
+	color:#FFF;
+	word-spacing:6px;
+	font-size:12px;
+	text-align:right;
+}
+
+#social {
+	position:absolute;
+	right: 0;
+	bottom: 0;
+	width: 200px;
+	height: 70px;
+	background-color:transparent;
+}
+
+#social img{
+	padding: 15px;
+}
+
+#theta{
+	width: 400px;
+	height: 136px;
+	margin: 0 auto;
+	background-color:transparent;
+}
+
+
+#theta img{
+	
+	width: 400px;
+	height: 136px;
+	
+	
+}
+
+#rightfoot a:visited{text-decoration:none;color:#CCC;background-color:transparent}
+
+#rightfoot a:link,.footer  {text-decoration:none;color:#FFF;background-color:transparent}
+#rightfoot a:hover,.footer a:active {text-decoration:underline;color:#404040;background-color:transparent}
+
+#midfoot {
+	position:absolute;
+	bottom: 0;
+	width: 300px;
+	height: 40px;
+	background-color:
+	#000;
+}
+#enfenete {
+	position:absolute;
+	margin-left: 50px;
+	top: 0;
+	width: 150px;
+	height: 50px;
+	padding: 15px;
+	color:#FFF;
+	word-spacing:6px;
+	font-size:10px;
+	text-align:left;
+
+}
+
+#enfenete img {
+	width: 100px;
+	height: 20px;
+	float:right;
+	border-radius: 5px;
+}
+#Eddie{
+	-webkit-transition: 0.5 ease;
+	-moz-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+#Eddie:hover {
+
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}

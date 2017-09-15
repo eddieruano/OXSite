@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@media (min-width: 320px) {
+    .menu-pic {
+        color: #FFF;
+    }
+    /*******************/
+    /*moved content class to common css*/
+    #thenav {
+        z-index: 30000000;
+        position: relative;
+        right: 0;
+        left: 0;
+        margin-top: -15px;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+    /*.navbar-toggle {
+  float: none;
+}*/
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+        background-color: #FFF;
+    }
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover {
+        color: #AE1A26;
+        background-color: #FFF !important;
+    }
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+        background-color: transparent;
+    }
+    .navbar .navbar-collapse {
+        text-align: center;
+        position: absolute;
+        left: 0;
+        text-align: center;
+        right: 0;
+        overflow: hidden;
+    }
+    #brand-image {
+/*
+        border-top: #FFF solid 1px;
+        border-bottom: #FFF solid 1px;
+*/
+        height: 30px;
+        margin-top: -5px;
+        margin-left: -25px;
+    }
+    .nav.navbar-nav li a {
+        color: #FFF;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        /*text-shadow: 2px 2px 2px #000;*/
+        font-size: 1.5em;
+    }
+    .nav.navbar-nav li a:hover {
+        background-color: rgb(61, 86, 110);
+        text-transform: uppercase;
+        /* text-shadow: 0px 0px 0px #000;*/
+        color: #F00;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 300;
+        font-size: 1.5em;
+    }
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover {
+        color: #F00;
+        background-color: #000;
+    }
+    .navbar {
+        border: none;
+        background-color: rgba(174, 26, 38, 0.65);
+        border-radius: 0px;
+    }
+    /*********************/
+    .floatfix {
+        display: none;
+    }
+    .menu-button {
+        font-size: 0.8rem;
+    }
+    #topcontent {
+        height: 215px;
+        background-color: #333;
+    }
+    #menu {
+        display: none;
+    }
+    .headercontent {
+        display: none;
+    }
+}
+
+}
+@media (min-width: 500px) {
+    .menu-button {
+        font-size: 1.0rem;
+    }
+    #topcontent {
+        height: 300px;
+        background-color: #F00;
+    }
+    #menu {
+        display: none;
+    }
+    .headercontent {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    #thenav {
+        display: none;
+    }
+    /*moved content class to common css*/
+    
+    .floatfix {
+        position: fixed;
+        z-index: 30;
+        right: 0;
+        left: 0;
+        box-sizing: border-box;
+        background-color: transparent;
+        margin-right: 15px;
+        margin-top: 10px;
+        margin-left: 15px;
+        color: #FFF;
+        display: inline;
+    }
+    #topcontent {
+        height: 461px;
+        background-color: #FF0;
+    }
+    #menu {
+        display: none;
+    }
+    .headercontent {
+        display: block;
+    }
+}
+@media (min-width: 905px) {
+    .menu-button {
+        font-size: 1.3rem;
+    }
+    #menu {
+        display: inline;
+    }
+}
+@media (min-width: 992px) {
+    .menu-button {
+        font-size: 1.3rem;
+    }
+    #topcontent {
+        height: 602px;
+        background-color: #0F0;
+    }
+    #menu {
+        display: inline;
+    }
+}
+@media (min-width: 1105px) {
+    .menu-button {
+        font-size: 1.7rem;
+    }
+    #topcontent {
+        height: 602px;
+        background-color: #0F0;
+    }
+    #menu {
+        display: inline;
+    }
+}
+@media (min-width: 1200px) {
+    .menu-button {
+        font-size: 2.0rem;
+    }
+    #topcontent {
+        height: 919px;
+        background-color: #00F;
+    }
+}
+
+/*
+
+.floatfix{
+	position:fixed;
+	z-index:30;
+	right:0;
+	left:0;
+	box-sizing:border-box;
+	background-color:transparent;
+	margin-right:15px;
+	margin-top:10px;
+	margin-left:15px;
+	color:#FFF;
+}
+
+*/
+.header {
+    /*-webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;*/
+    /*position: fixed;*/
+    /*width: 100%;*/
+    
+    border-top: #FFF solid 1px;
+    border-bottom: #FFF solid 1px;
+    height: 100px;
+    /**CHANGE THIS FOR NAVBAR**/
+    
+    z-index: 20;
+    /*border:solid #F0F;*/
+    /*margin-left:-15px;*/
+    /**fix, find out why**/
+    /*background-color: rgba(52,52,70,0.85);*/
+    
+    background-color: rgba(174, 26, 38, 0.65);
+    /*background-color: rgba(61,86,110,0.85);*/
+    /*padding: 10px 0;*/
+}
+.headercontent {
+    /*width:100%;
+	height:100px;/**NO CONFUSE WITH NAVBAR ADJUST BUT WILL NEED CHANGE**/
+    /*border:#FFF solid;*/
+    
+    box-sizing: border-box;
+    padding: 0;
+    background-color: rgba(61, 86, 110, 0.45);
+    /*display:none;*/
+    /*Scrapped because went with fade on scroll*/
+}
+.header-row {
+    margin-left: 0px;
+    margin-right: 0px;
+    box-sizing: border-box;
+}
+.inner-header {
+    height: 100%;
+}
+.header-column {
+    height: 100%;
+}
+.crest {
+    height: 100%;
+}
+.crest img {
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 100%;
+    /*border:#FFF solid;*/
+}
+.menu-button {
+    /*border:solid #F00;*/
+    /*border-top:#FFF solid 1px;*/
+    
+    border-bottom: #FFF solid 1px;
+    box-sizing: border-box;
+    text-align: center;
+    /*font-size:2.0rem;*/
+    
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-rendering: optimizelegibility;
+    line-height: 32px;
+    font-family: "Oswald";
+}
+.menu-button p {
+    margin: 0;
+    padding: 0;
+}
+.menu-button a {
+    color: #FFF;
+}
+.menu-logo {
+    box-sizing: border-box;
+    padding: 10px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    /*border:#F00 solid;*/
+}
+.menu-logo img {
+    /*	border-bottom:solid #FFF;*/
+    
+    display: block;
+    margin: auto;
+    /*	border-top:solid #FFF;*/
+    /*	border-width:5px;*/
+    
+    height: 100%;
+    /*position:absolute;
+	z-index:25;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+}
+.menu {
+    height: 100%;
+    font-size: 2.2rem;
+    padding: 0;
+    position: relative;
+}
+.menu p {
+    padding: 0;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 25;
+    /* 2 */
+    
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.menu p:hover {
+    cursor: pointer;
+}
+
+/*#close{display:none;}*/
+#open {
+    display: none;
+}
+
+}
+
+/*FIx for overflowing buttons*/
+.menu-button {
+    overflow: hidden;
+    max-height: 32px;
+}

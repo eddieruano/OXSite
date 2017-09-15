@@ -1,0 +1,159 @@
+/*CSSSSSSSSSSS*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
+.container-fluid {
+    height: 10000px !important;
+}
+
+.bordo {
+    border: #F00 solid;
+}
+
+.rowcommon {
+    background-color: #AE1A26;
+}
+
+.intro {
+    text-transform: capitalize;
+    font-size: 4.2rem;
+    color: #AE1A26;
+    text-align: center;
+    letter-spacing: 2px;
+    border-bottom: 1px solid #AE1A26;
+}
+
+.rowone {
+    margin-top: 200px;
+    height: 500px;
+    border-left: 3px solid #FFF;
+    overflow: hidden;
+}
+
+.innerwhy {
+    height: 100px;
+    /*    margin-top: 1px;*/
+    position: relative;
+    border-top: solid 1px #FFF;
+/*    border-right: solid 10px #FFF;*/
+}
+
+.innerrush {
+    height: 100px;
+    /*    margin-top: 1px;*/
+    border-top: solid 1px #FFF;
+}
+
+.innerwhen {
+    height: 100px;
+    border-top: solid 1px #FFF;
+}
+
+.innersignup {
+    height: 100px;
+    border-top: solid 1px #FFF;
+}
+
+.middleone {
+    height: 400px;
+}
+
+.rowtwo {
+    margin-top: 10px;
+}
+
+
+
+.leftbar {
+    position: fixed;
+    background-color: #FFF;
+    /*    height: 100px;*/
+    /*
+    border-bottom: 1px solid;
+    border-bottom-color: beige;
+*/
+    text-transform: capitalize;
+    color: #FFF;
+}
+
+.middle {
+    font-family: "Open Sans";
+    font-size: 2.0rem;
+    font-weight: 300;
+    text-transform: none;
+    color: darkslategrey;
+    height: 100%;
+    
+}
+
+.whyheader {
+    position: absolute;
+    font-weight: 300;
+    font-size: 4.0rem;
+/*    font-family: "Open Sans";*/
+    /*border:#0F0 solid;*/
+    margin: 0 auto;
+    /*z-index:15;*/
+    /* 2 */
+    top: 50%;
+    left: 50%;
+    /*    margin-right: -50%;*/
+    transform: translate(-50%, 25%);
+}
+
+.why-active{
+    position: absolute;
+    font-weight: 300;
+    font-size: 4.0rem;
+    top: 50%;
+    right: 0;
+    margin-right: 10px;
+    transform: translate(0, 25%);
+
+
+
+}
+
+/*
+.sidetile{position: relative;}
+.whywrapper{position: absolute;
+    z-index: 100;
+    height: 100%;
+    width: 100%;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #AE1A26;}
+*/
+
+.rightbar {
+    position: fixed;
+    height: 100px;
+/*    float: right;*/
+    background-color: #DDDDD8;
+    right: 0;
+    color: #FFF;
+    text-transform: capitalize;
+}
+
+.brotherhood{
+    font-size: 3.0rem;
+    color:#AE1A26;
+    text-align: center;
+    border-bottom: 1px solid #AE1A26;}
+}
+
+.picheader{
+    height: 500px;
+    border: #ae1a26 solid 2px;
+    overflow: hidden;
+    margin-top: -350px;
+}
+
+.picheader img{
+    width: 100%;
+}
+
+.floatfix {
+	z-index: 9999999999999999999999999999999999px;
+}

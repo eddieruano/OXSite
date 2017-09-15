@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.containment {
+
+	/*border: medium solid #F00;*/
+	height: 850px;
+	width: 1350px;
+	/*text-decoration: underline;*/
+	background-color:#AE1A26;
+	/*padding-left: 100px;*/
+	
+	margin: 0 auto;
+	/*box-shadow: 4px 4px 4px #888888;*/
+	position: relative;
+}

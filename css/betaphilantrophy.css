@@ -1,0 +1,185 @@
+
+@font-face {
+    font-family: 'Dance';
+    src: url('dance-webfont.eot');
+    src: url('dance-webfont.eot?#iefix') format('embedded-opentype'),
+         url('dance-webfont.woff2') format('woff2'),
+         url('dance-webfont.woff') format('woff'),
+         url('dance-webfont.ttf') format('truetype'),
+         url('dance-webfont.svg#dancing_scriptregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'calissa_wordsregular';
+    src: url('cursive-webfont.eot');
+    src: url('cursive-webfont.eot?#iefix') format('embedded-opentype'), url('cursive-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'HEADTH';
+    src: url('headth-webfont.eot');
+    src: url('headth-webfont.eot?#iefix') format('embedded-opentype'), url('headth-webfont.woff2') format('woff2'), url('headth-webfont.woff') format('woff'), url('headth-webfont.ttf') format('truetype'), url('headth-webfont.svg#headline_twohplhs') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*@font-face {
+    font-family: HEADTH;
+    src:url(HEADTH.TTF);
+}*/
+
+@font-face {
+    font-family: 'Coolvetica';
+    src: url('coolvetica-webfont.eot');
+    src: url('coolvetica-webfont.eot?#iefix') format('embedded-opentype'), url('coolvetica-webfont.woff2') format('woff2'), url('coolvetica-webfont.woff') format('woff'), url('coolvetica-webfont.ttf') format('truetype'), url('coolvetica-webfont.svg#coolveticaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Carbon';
+    src: url('carbon-webfont.eot');
+    src: url('carbon-webfont.eot?#iefix') format('embedded-opentype'), url('carbon-webfont.woff2') format('woff2'), url('carbon-webfont.woff') format('woff'), url('carbon-webfont.ttf') format('truetype'), url('carbon-webfont.svg#carbonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.sbdc-wrapper {
+    height: 900px;
+/*    border: 1px solid #F00;*/
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+}
+.sorority-pic {
+    width: 100%;
+    margin-top: 50px;
+/*    display: none;*/
+}
+.logo {
+    width: 240px;
+    height: 100px;
+    background-image: url("http://www.cpthetachi.com/Images/frontpage/sbdc/logo.png");
+    position: absolute;
+    z-index: 999999999999;
+    top: 0;
+    right: 0;
+    margin-top:20px;
+    margin-right: 20px;
+    
+}
+.top-banner {
+    height: 150px;
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+/*    border: 1px solid #FFF;*/
+    background-color: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    padding: 20px;
+}
+.top-intro {
+    font-family: "HEADTH";
+    letter-spacing: 5px;
+    font-size: 3.0rem;
+    /*
+    margin-top: 15px;
+    margin-left: 30px;
+*/
+    margin: 0 0 0 0;
+    color: #FFF;
+    text-transform: uppercase;
+    text-rendering: optimizelegibility;
+}
+.name-intro {
+    font-family: "Carbon";
+    letter-spacing: 3px;
+    font-size: 6.8rem;
+    margin: 0 0 0 0;
+    /*
+    margin-top: 15px;
+    margin-left: 30px;
+*/
+    color: #AE1A26;
+    text-transform: uppercase;
+    text-rendering: optimizelegibility;
+}
+
+.bottom-banner {
+    height: 300px;
+    position: absolute;
+/*    margin-bottom: 200px;*/
+    bottom:0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+/*    border: 1px solid #FFF;*/
+    background-color: rgba(0,0,0,0.4);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.sorority-video {
+	font-family: "HEADTH";
+    letter-spacing: 3px;
+    font-size: 3.0rem;
+    margin: 0 50px 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 30;
+    margin-bottom: 250px;
+    color: #FFF;
+    text-transform: uppercase;
+    text-rendering: optimizelegibility;
+}
+
+.sorority-name {
+	font-family: "Dance";
+    letter-spacing: 1px;
+    font-size: 4.0rem;
+    margin: 0 0 0 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 30;
+    margin-bottom: 250px;
+    color: #FFF;
+    text-transform: capitalize !important;
+    text-rendering: optimizelegibility;
+}
+
+
+.slide-wrapper{
+    height: 900px;
+    width: 100%;
+    background-color: #000;
+/*    z-index:40;*/
+    
+    
+    
+}
+
+.slide-wrapper a{
+    color:#ae1a26;
+}
+
+.slide-wrapper a:hover{
+    color:#FFF;
+}
+
+.next-phil{
+/*    border-top: 1px solid #AE1A26;*/
+/*    border-bottom: 1px solid #AE1A26;*/
+    height: 100px;
+    color: #ae1a26 !important;   
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    
+}

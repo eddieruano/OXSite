@@ -1,0 +1,216 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700,100);
+
+/*
+#content{
+	position:relative;
+	width:100%;
+	box-sizing:border-box;
+	/*background:url(../images/hard.png) no-repeat center top;
+	background-size:cover;*
+	
+	background-color:#000;
+	/*border:#FFF solid;*
+}*/
+
+
+/************************************************************************/
+
+
+/**Start tileboard content**/
+
+
+/*******************************************************************************************************************************/
+
+@media (min-width: 320px) {
+    
+    .container-fluid {
+        /*border:#0FF solid;*/
+        padding-top: 15px;
+    }
+    body {
+        font-family: "Oswald";
+        text-transform: uppercase;
+        background-color: #FFF;
+        font-size: 10px;
+        font-weight: 300;
+        color: #AE1A26;
+    }
+    h1,
+    .h1 {
+        font-size: 2.2rem;
+        text-align: center;
+        color: #FFF;
+        line-height: 25px;
+        letter-spacing: 8px;
+        margin: 0 0 0 0;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-rendering: optimizelegibility;
+    }
+    h2,
+    .h2 {
+        font-size: 1.0rem;
+        text-align: center;
+        color: #FFF;
+        line-height: 20px;
+        letter-spacing: 6px;
+        margin: 0 0 0 0;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-rendering: optimizelegibility;
+    }
+    h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        color: #AE1A26;
+        line-height: 32px;
+        letter-spacing: 6px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-rendering: optimizelegibility;
+    }
+    #content {
+        position: relative;
+        /* width: 100%; */
+        box-sizing: border-box;
+        background-color: #000;
+        /* left: 0; */
+        /* right: 0; */
+        margin-top: -85px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .welcomeBackground {
+        width: 100%;
+        margin-top: 0;
+        max-height: none;
+        opacity: 0.4;
+        -moz-opacity: 0.4;
+        -khtml-opacity: 0.4;
+        -webkit-opacity: 0.4;
+        filter: alpha(opacity=40);
+        /*border:#FFF solid;*/
+    }
+    .top-banner-text {
+        /*border: #F00 solid;*/
+        position: absolute;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .top-banner-text-wrap {
+        position: absolute;
+        /*border:#F0F solid;*/
+        left: 0;
+        right: 0;
+        width: 100%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        max-height: 200px;
+        /*need to change this for smaller screens**/
+        overflow: hidden;
+    }
+    .footerboard {
+        /*border:#F00 solid;*/
+        font-size: 1.5rem;
+    }
+    .footerboard a {
+        /*border:#F00 solid;*/
+        color: #AE1A26;
+    }
+    /*.footerboard a:hover{
+	/*border:#F00 solid;*
+	color: rgb(61,86,110);
+	
+}*/
+    .footer-top {
+        border-top: solid 1px #AE1A26;
+        border-bottom: solid 1px #AE1A26;
+    }
+    .footer-bottom {
+        margin-top: 10px;
+        font-size: 1.6rem;
+        letter-spacing: 5px;
+        margin: 0 0 0 0;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-rendering: optimizelegibility;
+    }
+}
+
+@media (min-width: 500px) {}
+
+@media (min-width: 768px) {
+    #content {
+        width: 100%;
+        /*box-sizing:border-box;*/
+        /*already declared*/
+        /*background:url(../images/hard.png) no-repeat center top;
+	background-size:cover;*/
+        /*background-color:#000;*/
+        /*already declared*/
+        /*border:#FFF solid;*/
+        margin-top: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /*#content {
+    margin-left: -15px;
+    margin-right: -15px;
+}*/
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 905px) {
+    h1,
+    .h1 {
+        font-size: 6.2rem;
+        text-align: center;
+        color: #FFF;
+        line-height: 76px;
+        letter-spacing: 14px;
+        margin: 0 0 0 0;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-rendering: optimizelegibility;
+    }
+    h2,
+    .h2 {
+        font-size: 2.6rem;
+        text-align: center;
+        color: #FFF;
+        line-height: 32px;
+        letter-spacing: 6px;
+        margin: 0 0 0 0;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-rendering: optimizelegibility;
+    }
+    h3 {
+        font-size: 2.1rem;
+        text-align: center;
+        color: #AE1A26;
+        line-height: 32px;
+        letter-spacing: 6px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-rendering: optimizelegibility;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+
+/*******************************************************************/
+
+
+/**Start sbdcboard content**/
